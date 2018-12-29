@@ -1,11 +1,9 @@
 import Taro, { Component } from '@tarojs/taro'
 import { View } from '@tarojs/components'
 import { connect } from '@tarojs/redux'
-
-import { getData } from './../../redux/modules/data';
+import { getData } from './../../redux/modules/data'
 
 import './index.less'
-
 
 
 class Index extends Component {
@@ -25,10 +23,8 @@ class Index extends Component {
   componentDidHide () { }
 
   render () {
-    console.log(this.props.data);
     return (
       <View className='index'>
-        123
       </View>
     )
   }
